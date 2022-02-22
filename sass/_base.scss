@@ -1,0 +1,32 @@
+:root {
+    --default-font: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%  //1rem = 10px // 10 / 16 = 62.5;
+}
+
+body {
+    font-size: 1.6rem; // 16px
+    font-family: var(--default-font);
+    overscroll-behavior-block: none;
+}
+
+.child {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 71, 71);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+}
+
